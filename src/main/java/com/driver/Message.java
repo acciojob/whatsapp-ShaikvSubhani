@@ -6,22 +6,13 @@ public class Message {
     private int id;
     private String content;
     private Date timestamp;
-    private int messageId;
 
-    public Message()
-    {
-
+    public Message() {
     }
 
-    public Message(int id, String content, Date timestamp) {
+    public Message(int id, String content) {
         this.id = id;
         this.content = content;
-        this.timestamp = timestamp;
-    }
-
-    public Message(int messageId, String content) {
-        this.messageId=messageId;
-        this.content=content;
     }
 
     public int getId() {
